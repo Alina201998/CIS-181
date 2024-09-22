@@ -7,7 +7,7 @@ body {
     background-color: Linen;
     margin: 0;
     padding: 0;
-    /* margin and padding is 0 to stick nav box to the left */
+    /* margin and padding is 0 to stick nav box to the left!!1! */
 }
 
 
@@ -25,8 +25,9 @@ h2 {
 
 
 
-p1 {
-    font-size: 43px;
+.p1 {
+    text-align: center;
+    font-size: 25px;
     line-height: 1.6;
     /* Adds space between the lines */
     margin-top: 15px;
@@ -34,7 +35,7 @@ p1 {
     margin-left: 50px;
 }
 
-p2 {
+.p2 {
     font-size: 15px;
     margin-left: 7px;
 }
@@ -55,7 +56,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    /* removes bullet points */
+    /* removes bullet points in a list */
     display: flex;
     /* flex makes items horizontal */
 }
@@ -66,12 +67,11 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 20px;
-    /* font-size of home, about, contact */
+    font-size: 25px;
     text-decoration: none;
     /* Remove underline from links */
     padding: 10px 20px;
-    /* Add padding for clickable area */
+    /* Add padding for clickable area(invisible because of the same color) */
     display: block;
     /* Make link fill the entire list item */
     color: rgb(108, 78, 108);
@@ -80,7 +80,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ecc1c1;
+    background-color: rgb(175, 143, 175);
     /* Change background on hover */
     color: black;
     /* Change text color on hover */
