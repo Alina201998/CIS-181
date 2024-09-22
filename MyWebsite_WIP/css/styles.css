@@ -1,0 +1,154 @@
+/* This is a single-line comment */
+* {
+    font-family: "Garamond", serif;
+}
+
+body {
+    background-color: Linen;
+    margin: 0;
+    padding: 0;
+    /* margin and padding is 0 to stick nav box to the left */
+}
+
+
+h1 {
+    margin-left: 70px;
+    text-align: left;
+    color: rgb(175, 143, 175)
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(175, 143, 175)
+}
+
+
+
+p1 {
+    font-size: 43px;
+    line-height: 1.6;
+    /* Adds space between the lines */
+    margin-top: 15px;
+    /* Adds space above the text */
+    margin-left: 50px;
+}
+
+p2 {
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+
+
+
+
+nav {
+    background-color: #ecc1c1;
+    font-family: "Garamond", serif;
+    /* bacground color of a nav bar */
+    padding: 10px 20px;
+    /* adjusts hight of a nav bar*/
+    width: 100%;
+    /* makes the nav bar stretch across the entire page*/
+}
+
+nav ul {
+    list-style-type: none;
+    /* removes bullet points */
+    display: flex;
+    /* flex makes items horizontal */
+}
+
+nav ul li {
+    margin-right: 10px;
+    /* Add space between items(home,     about,     contact) */
+}
+
+nav ul li a {
+    font-size: 20px;
+    /* font-size of home, about, contact */
+    text-decoration: none;
+    /* Remove underline from links */
+    padding: 10px 20px;
+    /* Add padding for clickable area */
+    display: block;
+    /* Make link fill the entire list item */
+    color: rgb(108, 78, 108);
+    /* text color */
+
+}
+
+nav ul li a:hover {
+    background-color: #ecc1c1;
+    /* Change background on hover */
+    color: black;
+    /* Change text color on hover */
+}
+
+
+
+.container {
+    text-align: center;
+    /* text-align of <p> */
+    font-size: 24px;
+    /* font-size of <p> */
+}
+
+.container img {
+    width: 400px;
+    height: 300px;
+    /* img width and heigh  */
+    object-fit: cover;
+    /* photos don't get compressed(quality)*/
+}
+
+.container p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* Media Queries universal */
+
+/* For tablets and smaller screens (768px and below) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        /* Adjust font size for tablets */
+    }
+
+    .container {
+        width: 90%;
+        /* Adjust container width */
+    }
+
+    .sidebar {
+        background-color: lightgray;
+        /* hide a sidebar on phone  */
+    }
+
+}
+
+/* For mobile devices (480px and below) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        /* Adjust font size for mobile */
+    }
+
+    .container {
+        width: 100%;
+        /* Full width on mobile */
+    }
+
+    .sidebar {
+        display: none;
+        /* Hide sidebar on mobile */
+    }
+
+    h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
