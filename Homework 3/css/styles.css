@@ -1,0 +1,138 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #E6E2DD;
+    padding: 20px;
+}
+
+
+
+
+
+
+.navbar {
+    background-color: #373A36;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.navbar-list {
+    list-style-type: none;
+    /* Remove bullet points */
+    display: flex;
+    justify-content: left;
+    /* Center items horizontally */
+}
+
+.navbar-item {
+    margin: 0 15px;
+    /* Spacing between items */
+}
+
+.navbar-item a {
+    color: white;
+    /* Link text color */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+}
+
+.navbar-item a:hover {
+    color: #373A36;
+    background-color: #E6E2DD;
+}
+
+.contactus-container {
+    padding: 15px;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    /* Center the container */
+    padding: 2%;
+    text-align: center;
+    border: solid 1px #d1cdc9;
+    box-shadow: 0 4px 8px #373a36b6;
+    background-color: #f5f2ef;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+.image-container img {
+    width: 40%;
+    /* Image takes full width of container */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-width: 100%;
+    /* Prevent the image from exceeding container width */
+    /* padding: 2%; */
+
+
+}
+
+
+
+
+
+
+.image-container h2 {
+    font-size: 30px;
+
+}
+
+.image-container p {
+    font-size: 25px;
+    color: #555;
+    padding: 1%;
+}
+
+
+
+
+
+.image-container a {
+    color: rgba(230, 111, 26, 0.853);
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+}
+
+.image-container li {
+    list-style-type: none;
+}
+
+.image-container a:hover {
+    color: #E6E2DD;
+    background-color: #373A36;
+}
+
+
+
+
+
+
+
+footer {
+    color: #373A36;
+    text-align: left;
+    padding: 10px;
+    /* width: 100%; */
+    /* Full width of the page */
+
+}
+
+.pfooter {
+    font-size: 14px;
+
+}

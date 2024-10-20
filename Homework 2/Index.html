@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Website</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+
+        /* body {
+            width: 100%;
+            background-color: rgba(235, 242, 249, 0.176);
+        } */
+
+        * {
+            font-family: "Trebuchet MS", sans-serif;
+            color: rgb(54, 72, 23);
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+            /* margin, padding, box-sizing delete all margins for nav bar */
+        }
+
+
+
+        nav {
+            width: 100vw;
+            /* 1vw equals 1% of the viewport's width*/
+            background-color: rgba(115, 147, 179, 0.462);
+            padding: 0;
+            /* Remove any default padding */
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            /* Remove bullets */
+            margin: 0;
+            /* Remove default margin */
+            padding: 0;
+            /* Remove default padding */
+            display: flex;
+            /* Display items in a row */
+
+        }
+
+        nav li {
+            display: inline;
+            /* Display items in a line */
+            padding: 10px;
+            /* Set spacing for navigation items */
+        }
+
+        nav a {
+            text-decoration: none;
+            /* Remove default underline */
+            color: black;
+            /* Set text color */
+            display: block;
+            /* Make links block elements */
+            padding: 14px 20px;
+            /* Add padding */
+        }
+
+        #menu {
+            margin-left: 2%;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        #main-section {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        #contact {
+            margin-left: 2%;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        #footer {
+            margin-left: 2%;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        <header>
+            <img src="images/logo.png" alt="Bakery Logo" width="200" height="200">
+        </header>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Seasonal</a></li>
+            <li><a href="">Signature Items</a></li>
+            <li><a href="">More</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <div id="menu">
+        <h2>Our menu</h2>
+        <p>If you have any questions, <i><a href="#contact">Contact Us</a></i></p>
+        <!-- use div id to link(make it able to lump through a web page) -->
+        <!-- <i> Italic -->
+    </div>
+
+
+
+
+    <div id="main-section">
+        <img src="images/bread.jpg" alt="three types of rustic bread loaves on a dark wooden surface" height="400"
+            width="600">
+        <img src="images/cakes.jpg" alt="a multi-tiered cupcake stand filled with cupcakes topped with white frosting"
+            height="400" width="600">
+        <img src="images/pastries.jpg"
+            alt="a cup of latte with intricate latte art surrounded by four golden croissants on plates" height="400"
+            width="600">
+        <img src="images/bakery.jpg" alt="a pastry shop with customers standing and browsing." height="400" width="600">
+    </div>
+
+
+
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <ul>
+            <li><a href="mailto:localbakery@gmail.com">localbakery@gmail.com</a></li>
+            <li>Phone:123-456-7890</li>
+        </ul>
+
+
+    </div>
+
+
+
+
+    <div id="footer">
+        <footer>
+            <h2>Follow us on:</h2>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-icon.png"
+                    alt="The Facebook icon"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram-icon.png"
+                    alt="The Facebook icon"></a>
+            <a href="https://x.com/?lang=en" target="_blank"><img src="images/twitter-icon.png"
+                    alt="The Twitter icon"></a>
+        </footer>
+    </div>
+</body>
+
+</html>

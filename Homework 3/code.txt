@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Bar Styling */
+.h1_bar {
+    border: 2px solid #128ecc;
+    color: #e1750f;
+    border-radius: 2%;
+}
+
+/* Content Container Styling */
+.content-container {
+    width: 90%;
+    /* Use percentage-based width for responsive design */
+    max-width: 1200px;
+    /* Limit the max width to keep it centered on larger screens */
+    padding: 20px;
+    /* Adjust padding */
+    background-color: #eae7e7b0;
+    margin: 20px auto;
+    /* Center the container with auto margins */
+    border-radius: 2%;
+}
+
+/* Text Content Styling */
+.text-content {
+    width: 100%;
+    /* Allow text content to take full width */
+    max-width: 600px;
+    /* Limit the width */
+    border: 4px solid #e1750f;
+    border-radius: 2%;
+    text-align: center;
+    margin: 10px auto;
+    /* Center text content */
+}
+
+/* Heading and Paragraph Styling */
+.text-content h2 {
+    font-size: 1.5rem;
+    /* Use a relative font size */
+    color: #161514;
+    padding-bottom: 10px;
+}
+
+.text-content p {
+    margin: 10px auto;
+    /* Center the paragraph */
+    width: 80%;
+    /* Use percentage width for text */
+    font-size: 1.2rem;
+    /* Relative font size for better scaling */
+    color: #262626;
+    line-height: 1.6;
+    /* Adjust line height */
+    background-color: #e1740f83;
+    border-radius: 2%;
+}
+
+/* Image Container Styling */
+.image-content {
+    width: 100%;
+    /* Allow image content to take full width */
+    max-width: 500px;
+    /* Limit the max width */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 20px auto;
+    /* Center the container */
+}
+
+/* Image Styling */
+.image-content img {
+    border-radius: 50%;
+    width: 100%;
+    /* Make the image responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
